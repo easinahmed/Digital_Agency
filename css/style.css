@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+:root {
+    --primary: #6366F1;
+    --white: #fff;
+    --gray-800: #33354D;
+    --gray-900: #0B0F19;
+    --gray-700: #9397AD;
+    /*************************
+     Fonts
+    ************************* */
+    --font-manrope: "Manrope", sans-serif;
+}
+* {
+    font-family: var(--font-manrope);
+}
+a {
+    text-decoration: none;
+}
+p,h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+
+.myCheckBox {
+    display: flex !important;
+    position: relative !important;
+}
+.myCheckBox label.light {
+    position: absolute !important;
+    top: 0;
+    left: -50px !important;
+}
+.contact_us {
+    background: var(--primary);
+    color: var(--white);
+    padding: 9px 20px;
+    border-radius: 4px;
+}
+
+h1 {
+    color: var(--white);
+}
+.common_btn {
+    padding: 0 32px;
+    border-radius: 8px;
+    background: var(--primary);
+    color: var(--white);
+    font-size: 16px;
+    text-align: center;
+    line-height: 52px;
+    border: none;
+    white-space: nowrap;
+    
+}
+/* ================================
+       navbar Section Start
+================================ */
+#navbar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.form-check-input{
+    cursor: pointer;
+}
+
+.navbar-nav{
+    gap: 24px;
+}
+/* ================================
+       navbar Section End
+================================ */
+
+
+
+
+
+/* ================================
+       Banner Section Start
+================================ */
+#banner {
+    padding-top: 204px;
+    padding-bottom: 96px;
+    background: url("../images/banner-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner_container {
+    align-items: start;
+}
+.left_side .icon_content {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.left_side .icon_content .icon_box {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px -1px hsla(250, 36%, 10%, 0.069);
+}
+.left_side .icon_content p {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 1.4;
+    color: var(--gray-800);
+    font-family: var(--font-manrope);
+}
+
+.banner_container .text h1 {
+    font-size: 72px;
+    font-weight: 800;
+    color: var(--gray-900);
+    line-height: 1.3;
+    padding-top: 16px;
+    padding-bottom: 64px;
+}
+.banner_container .text h1 span {
+    background: linear-gradient(90deg, #6366F1 0%, #8B5CF6 50%, #D946EF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.banner_container .bottom_text {
+    display: flex;
+    align-items: start;
+    gap: 40px;
+    padding-bottom: 156px;
+}
+.banner_container .bottom_text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--gray-700);
+    line-height: 1.6;
+    min-width: 434px;
+}
+
+.left_side .icon_content.bottom p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--gray-700);
+}
+
+.right_side {
+    position: relative;
+    background: red;
+}
+.right_side .move {
+    position: absolute;
+    animation: move 10s linear  infinite;
+    top: 0;
+    left: 0;
+}
+
+@keyframes move {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg) ;
+    }
+}
+/* ================================
+       Banner Section End
+================================ */
+
+
