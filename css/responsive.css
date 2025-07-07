@@ -3,22 +3,22 @@
     padding-top: 113px;
     padding-bottom: 80px;
   }
-
   .banner_container .text h1 {
     font-size: 32px;
     padding-bottom: 30px;
-    text-align: center;
   }
-
-  .banner_container .bottom_text {
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 45px;
-    text-align: center;
-  }
-
   .banner_container .bottom_text p {
-    width: 100%;
-    text-align: center;
+    min-width: 100%;
   }
+  .banner_container .bottom_text {
+    flex-wrap: wrap;
+    padding-bottom: 45px;
+  }
+
+  .right_side .move {
+    position: static;
+}
+.featured_images .image{
+    margin-top: 24px;
+}
 }
