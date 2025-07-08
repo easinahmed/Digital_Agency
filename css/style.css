@@ -72,15 +72,42 @@ h1 {
 .common_btn {
     padding: 0 32px;
     border-radius: 8px;
-    background: var(--primary);
+    background: transparent;
     color: var(--white);
     font-size: 16px;
     text-align: center;
     line-height: 52px;
-    border: none;
+    border: 1px solid var(--primary);
     white-space: nowrap;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    min-width: 16 0px;
     
 }
+
+
+.common_btn::before{ 
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background:var(--primary) ;
+    transition: all 0.3s linear;
+    z-index: -1;
+}
+
+.common_btn:hover{
+    color: var(--primary);
+    font-weight: 500;
+}
+
+.common_btn:hover::before{
+    left: 100%;
+}
+
 /* ================================
        navbar Section Start
 ================================ */
@@ -317,10 +344,26 @@ h1 {
 .competencies_container .content{
     max-width: 856px;
     margin: 0 auto;
-    background: var(--white-fff);
-    box-shadow: 0 4.4px 20px -1px rgba(19, 16, 34, 0.05);
-
+   
+   
+   
 }
+
+#competencies .accordion-item {
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 16px !important;
+    padding: 18px 24px !important;
+    box-shadow: 0 4.4px 12px -1px hsla(250, 36%, 10%, 0.069);
+}
+
+#competencies .accordion-item h2 button.btn_padding{
+    padding: 0 !important;
+    line-height: 1.6;
+    
+}
+
+
 
 .accordion_body_content {
     display: grid;
