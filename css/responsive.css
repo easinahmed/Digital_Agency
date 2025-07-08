@@ -21,4 +21,13 @@
 .featured_images .image{
     margin-top: 24px;
 }
+
+body{
+    overflow-x: hidden;
+
+}
+
+.competencies_container{
+  padding: 20px;
+}
 }
