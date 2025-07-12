@@ -1,3 +1,15 @@
+@media (max-width: 1399.99px) {
+  #trust .carousel-item .slider_view{
+    gap: 10px;
+  }
+}
+
+@media (max-width:1199.99px) {
+  #trust button.pr_arrow{
+    left: 90%;
+  }
+}
+
 @media (max-width: 991.98px) {
   #banner {
     padding-top: 113px;
@@ -29,5 +41,18 @@ body{
 
 .competencies_container{
   padding: 20px;
+}
+
+#trust .carousel-item .slider_view{
+  flex-wrap: wrap;
+  justify-content: center !important;
+}
+
+#trust .carousel-item .slider_view .singel_slide_item{
+  margin-bottom: 20px;
+}
+
+#trust button{
+  display: none;
 }
 }
