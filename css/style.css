@@ -355,9 +355,16 @@ h1 {
    
 }
 
+
+
+#competencies .accordion{
+    border: none !important;
+    
+}
 #competencies .accordion-item {
     margin-bottom: 20px;
     overflow: hidden;
+    border: none !important;
     border-radius: 16px !important;
     padding: 18px 24px !important;
     box-shadow: 0 4.4px 12px -1px hsla(250, 36%, 10%, 0.069);
@@ -366,6 +373,7 @@ h1 {
 #competencies .accordion-item h2 button.btn_padding{
     padding: 0 !important;
     line-height: 1.6;
+    border: none !important;
     
 }
 
@@ -409,6 +417,59 @@ h1 {
 
 /* ================================
     Our Competencies Section End
+================================ */
+
+
+
+/* ================================
+    Trusted Client Section start
+================================ */
+
+#trust{
+    padding-top: 96px;
+    
+}
+
+#trust h2{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 1.3;
+    color: var(--gray-900);
+    padding-bottom: 40px;
+}
+
+.singel_slide_item{
+    padding: 35px 38px;
+    border-radius: 8px;
+    border: 1px solid var(--gray-300);
+    max-width: 196px;
+    max-height: 100px;
+}
+
+
+#trust button.pr_arrow, #trust button.nx_arrow{
+    background-color: var(--white);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    box-shadow: 0 2px 6.4px -1px #131022;
+    position: absolute !important;
+    top: -70%;
+}
+
+#trust button i{
+    color: #0B0F19;
+}
+
+.pr_arrow{
+    left: 92%;
+}
+
+
+
+
+/* ================================
+    Trusted Client Section End
 ================================ */
 
 
