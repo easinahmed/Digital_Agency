@@ -10,6 +10,7 @@
     --gray-700: #565973;
     --gray-800: #33354D;
     --gray-900: #0B0F19;
+    --warning-color: #FFBA08;
     /*************************
      Fonts
     ************************* */
@@ -24,6 +25,18 @@ a {
 p,h1,h2,h3,h4,h5,h6{
     padding: 0;
     margin: 0;
+}
+
+.heading-1{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.3;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 1.3;
 }
 
 body{
@@ -471,5 +484,147 @@ h1 {
 /* ================================
     Trusted Client Section End
 ================================ */
+
+
+
+
+/* ================================
+    About Us Section start
+================================ */
+#about{
+    padding-top: 112px;
+}
+
+#about h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.3;
+    padding-bottom: 48px;
+}
+
+
+
+#about .about_text{
+    padding: 48px;
+    box-shadow: 0 4.4px 12px -1px rgba(19, 16, 34, 0.06), 0 2px 6.4px -1px rgba(19, 16, 34, 0.03);
+    position: relative;
+    
+}
+
+#about .about_container .quotes{
+    position: absolute;
+    left: 37px;
+    top: -22px;
+}
+#about .about_text p{
+    margin-bottom: 24px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#about .about_text .star_icons i{
+    color: var(--warning-color);
+}
+
+#about .about_image .image{
+    margin-bottom: 32px;
+}
+
+#about .about_image .image_info{
+    gap: 24px;
+    justify-content: start;
+    align-items: center;
+}
+
+#about .about_image .image_info .logo{
+    padding: 17px 20px;
+   
+}
+
+#about .about_image .image_info .divider{
+    width: 1px;
+    height: 64px;
+    background:var(--gray-300) ;
+}
+
+#about .about_image .image_info .text h3{
+font-size: 20px;
+line-height: 1.4;
+font-weight: 800;
+}
+
+#about .about_image .image_info .text p{
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--gray-600);
+}
+
+/* ================================
+    About Us Section end
+ ================================ */
+
+
+/* ================================
+    Atmosphere Section start
+ ================================ */
+#atmosphere{
+    padding-top: 112px;
+}
+
+#atmosphere h2{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.3;
+    position: relative;
+    
+}
+
+#atmosphere h2 img{
+    position: absolute;
+}
+
+/* ================================
+    Atmosphere Section end
+ ================================ */
+
+
+/* ================================
+    Award Section start
+ ================================ */
+
+ #award{
+    padding-top: 96px;
+ }
+
+ #award .award_container h2{
+    max-width: 410px;
+ }
+
+  #award .award_container .award_logo{
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+  } 
+
+/* ================================
+    awrad Section end
+ ================================ */
+
+
+
+/* ================================
+    Blog Section start
+ ================================ */
+
+ #blog{
+    margin-top: 112px;
+    padding-top: 96px;
+    background: var(--gray-100);
+ }
+
+/* ================================
+   Blog Section end
+ ================================ */
 
 

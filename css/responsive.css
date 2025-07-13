@@ -55,4 +55,40 @@ body{
 #trust button{
   display: none;
 }
+
+#about{
+  text-align: center;
+}
+#about .about_image{
+  margin-top: 40px;
+}
+#about .about_image .image_info{
+  justify-content: center;
+}
+
+#atmosphere{
+  text-align: center;
+}
+#atmosphere .image{
+  width: 100%;
+}
+
+#atmosphere .image img{
+  width: 100%;
+}
+
+#award .award_container{
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#award .award_container h2{
+  max-width: 100%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+#award .award_container .award_logo{
+  flex-wrap: wrap;
+}
 }
