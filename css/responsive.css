@@ -2,12 +2,50 @@
   #trust .carousel-item .slider_view{
     gap: 10px;
   }
+  #atmosphere .image{
+  width: 100%;
+}
+#atmosphere .image img{
+  width: 100%;
+}
+
+
 }
 
 @media (max-width:1199.99px) {
   #trust button.pr_arrow{
     left: 90%;
   }
+  #award .award_container{
+    display: block !important;
+  
+  text-align: center;
+}
+
+#award .award_container h2{
+  max-width: 100%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+#award .award_container .award_logo{
+  flex-wrap: wrap;
+}
+
+#about .about_container .about_image{
+  margin-top: 24px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+
+
+#about{
+  
+}
 }
 
 @media (max-width: 991.98px) {
@@ -58,6 +96,7 @@ body{
 
 #about{
   text-align: center;
+  width: 100%;
 }
 #about .about_image{
   margin-top: 40px;
@@ -68,6 +107,7 @@ body{
 
 #atmosphere{
   text-align: center;
+  width: 100%;
 }
 #atmosphere .image{
   width: 100%;
@@ -77,18 +117,21 @@ body{
   width: 100%;
 }
 
-#award .award_container{
-  flex-wrap: wrap;
-  text-align: center;
+
+
+#atmosphere h2 img{
+  display: none;
 }
 
-#award .award_container h2{
-  max-width: 100%;
-  margin: 0 auto;
-  padding-bottom: 40px;
 }
 
-#award .award_container .award_logo{
-  flex-wrap: wrap;
+@media (max-width:767.98px) {
+  #about .about_image .image{
+    max-width: 100%;
+  }
+
+  #about .about_image .image img{
+    width: 100%;
+  }
 }
-}
+
