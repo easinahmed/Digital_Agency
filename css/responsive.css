@@ -9,6 +9,11 @@
   width: 100%;
 }
 
+#blog .left .info{
+  padding-bottom: 38px;
+  text-align: start;
+}
+
 
 }
 
@@ -27,9 +32,46 @@
   gap: 24px;
 }
 
+#blog .right_layout{
+  height: 237px;
+  text-align: left;
+
+}
+
+#blog .blog_card_text .info{
+  align-items: start;
+}
+
+#blog .right_layout p{
+  font-size: 16px;
+}
+#blog .right_layout:last-child .digital{
+  font-size: 12px;
+}
+
+.blog_card_text .info .user_info h6{
+  font-size: 12px;
+}
+
+.blog_card_text .info .user_info p{
+  font-size: 12px !important;
+}
+
 }
 
 @media (max-width: 991.98px) {
+
+nav{
+  display: block !important;
+  position: static !important;
+  background: rgba(219, 70, 239, 0.06);
+  
+}
+
+nav .nav_buttons{
+  display: none !important;
+}
+
   #banner {
     padding-top: 113px;
     padding-bottom: 80px;
@@ -52,6 +94,8 @@
 .featured_images .image{
     margin-top: 24px;
 }
+
+
 
 body{
     overflow-x: hidden;
@@ -76,16 +120,17 @@ body{
 }
 
 #about{
-  text-align: center;
+  text-align: center !important;
   width: 100%;
 }
-#about .about_image{
+#about .right_side{
   margin-top: 40px;
 }
-#about .about_image .image_info{
+
+
+#about .right_side .info{
   justify-content: center;
 }
-
 #atmosphere{
   text-align: center;
   width: 100%;
@@ -104,15 +149,70 @@ body{
   display: none;
 }
 
+#brand .brand_logos{
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#brand .brand_container .text h3{
+  max-width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#blog .card_item{
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+#blog .left{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#blog .right_layout{
+  margin-top: 24px;
+  display: block;
+}
+
+#blog .right_layout .icon{
+    top: 16px;
+    left: auto;
+    right: -16px !important;
+    
+}
+
+#blog .right_layout{
+  height: 637px;
+  
+
+}
+
+
+footer .footer_right {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 24px;
+  justify-content: space-between;
+  margin: 48px !important;
+  
+  
+}
+
+
+
 }
 
 @media (max-width:767.98px) {
-  #about .about_image .image{
-    max-width: 100%;
+  #competencies .accordion_body_content{
+    display: block;
+  }
+  #competencies .accordion_body_content .image{
+    width: 50%;
+    margin: 0 auto;
   }
 
-  #about .about_image .image img{
-    width: 100%;
-  }
 }
 
