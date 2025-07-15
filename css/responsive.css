@@ -76,7 +76,7 @@
   }
 
   #banner {
-    padding-top: 113px;
+    padding-top: 45px;
     padding-bottom: 80px;
   }
 
@@ -215,13 +215,16 @@
 
   }
 
+  footer form{
+    margin-bottom: 50px;
+  }
 
   footer .footer_right {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    gap: 24px;
-    justify-content: space-between;
-    margin: 48px !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 24px;
+  justify-content: space-between;
+  
 
 
   }
