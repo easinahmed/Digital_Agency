@@ -16,21 +16,7 @@
   #trust button.pr_arrow{
     left: 90%;
   }
-  #award .award_container{
-    display: block !important;
-  
-  text-align: center;
-}
 
-#award .award_container h2{
-  max-width: 100%;
-  margin: 0 auto;
-  padding-bottom: 40px;
-}
-
-#award .award_container .award_logo{
-  flex-wrap: wrap;
-}
 
 #about .about_container .about_image{
   margin-top: 24px;
@@ -41,11 +27,6 @@
   gap: 24px;
 }
 
-
-
-#about{
-  
-}
 }
 
 @media (max-width: 991.98px) {
