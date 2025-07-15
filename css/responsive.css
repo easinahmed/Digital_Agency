@@ -1,88 +1,94 @@
 @media (max-width: 1399.99px) {
-  #trust .carousel-item .slider_view{
+  #trust .carousel-item .slider_view {
     gap: 10px;
   }
-  #atmosphere .image{
-  width: 100%;
-}
-#atmosphere .image img{
-  width: 100%;
-}
 
-#blog .left .info{
-  padding-bottom: 38px;
-  text-align: start;
-}
+  #atmosphere .image {
+    width: 100%;
+  }
+
+  #atmosphere .image img {
+    width: 100%;
+  }
+
+  #blog .left .info {
+    padding-bottom: 38px;
+    text-align: start;
+  }
 
 
 }
 
 @media (max-width:1199.99px) {
-  #trust button.pr_arrow{
+  #trust button.pr_arrow {
     left: 90%;
   }
 
 
-#about .about_container .about_image{
-  margin-top: 24px;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 24px;
-}
+  #about .about_container .about_image {
+    margin-top: 24px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
 
-#blog .right_layout{
-  height: 237px;
-  text-align: left;
+  #blog .right_layout {
+    height: 237px;
+    text-align: left;
 
-}
+  }
 
-#blog .blog_card_text .info{
-  align-items: start;
-}
+  #blog .blog_card_text .info {
+    align-items: start;
+  }
 
-#blog .right_layout p{
-  font-size: 16px;
-}
-#blog .right_layout:last-child .digital{
-  font-size: 12px;
-}
+  #blog .right_layout p {
+    font-size: 16px;
+  }
 
-.blog_card_text .info .user_info h6{
-  font-size: 12px;
-}
+  #blog .right_layout:last-child .digital {
+    font-size: 12px;
+  }
 
-.blog_card_text .info .user_info p{
-  font-size: 12px !important;
-}
+  .blog_card_text .info .user_info h6 {
+    font-size: 12px;
+  }
+
+  .blog_card_text .info .user_info p {
+    font-size: 12px !important;
+  }
 
 }
 
 @media (max-width: 991.98px) {
 
-nav{
-  display: block !important;
-  position: static !important;
-  background: rgba(219, 70, 239, 0.06);
-  
-}
+  nav {
+    display: block !important;
+    position: static !important;
+    background: rgba(219, 70, 239, 0.06);
 
-nav .nav_buttons{
-  display: none !important;
-}
+  }
+
+  nav .nav_buttons {
+    display: none !important;
+  }
 
   #banner {
     padding-top: 113px;
     padding-bottom: 80px;
   }
+
   .banner_container .text h1 {
     font-size: 32px;
     padding-bottom: 30px;
   }
+
   .banner_container .bottom_text p {
     min-width: 100%;
   }
+
   .banner_container .bottom_text {
     flex-wrap: wrap;
     padding-bottom: 45px;
@@ -90,129 +96,173 @@ nav .nav_buttons{
 
   .right_side .move {
     position: static;
-}
-.featured_images .image{
+  }
+
+  .featured_images .image {
     margin-top: 24px;
-}
+  }
 
 
 
-body{
+  body {
     overflow-x: hidden;
 
-}
+  }
 
-.competencies_container{
-  padding: 20px;
-}
+  .competencies_container {
+    padding: 20px;
+  }
 
-#trust .carousel-item .slider_view{
-  flex-wrap: wrap;
-  justify-content: center !important;
-}
+  #trust .carousel-item .slider_view {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
 
-#trust .carousel-item .slider_view .singel_slide_item{
-  margin-bottom: 20px;
-}
+  #trust .carousel-item .slider_view .singel_slide_item {
+    margin-bottom: 20px;
+  }
 
-#trust button{
-  display: none;
-}
+  #trust button {
+    display: none;
+  }
 
-#about{
-  text-align: center !important;
-  width: 100%;
-}
-#about .right_side{
-  margin-top: 40px;
-}
+  #about {
+    text-align: center !important;
+    width: 100%;
+  }
 
-
-#about .right_side .info{
-  justify-content: center;
-}
-#atmosphere{
-  text-align: center;
-  width: 100%;
-}
-#atmosphere .image{
-  width: 100%;
-}
-
-#atmosphere .image img{
-  width: 100%;
-}
+  #about .right_side {
+    margin-top: 40px;
+  }
 
 
+  #about .right_side .info {
+    justify-content: center;
+  }
 
-#atmosphere h2 img{
-  display: none;
-}
+  #about .right_side .image {
+    max-width: 100%;
+  }
 
-#brand .brand_logos{
-  display: flex !important;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+  #about .right_side .image img {
+    width: 100%;
+  }
 
-#brand .brand_container .text h3{
-  max-width: 100%;
-  text-align: center;
-  margin-bottom: 20px;
-}
+  #about .pagination{
+    bottom: -6% !important;
+    justify-content: center !important;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 
-#blog .card_item{
-  width: 80%;
-  margin: 0 auto;
-}
+  #atmosphere {
+    text-align: center;
+    width: 100%;
+  }
+
+  #atmosphere .image {
+    width: 100%;
+  }
+
+  #atmosphere .image img {
+    width: 100%;
+  }
 
 
-#blog .left{
-  display: grid;
-  grid-template-columns: 1fr;
-}
 
-#blog .right_layout{
-  margin-top: 24px;
-  display: block;
-}
+  #atmosphere h2 img {
+    display: none;
+  }
 
-#blog .right_layout .icon{
+  #brand .brand_logos {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #brand .brand_container .text h3 {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #blog .card_item {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+
+  #blog .left {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  #blog .right_layout {
+    margin-top: 24px;
+    display: block;
+  }
+
+  #blog .right_layout .icon {
     top: 16px;
     left: auto;
     right: -16px !important;
-    
-}
 
-#blog .right_layout{
-  height: 637px;
-  
+  }
 
-}
+  #blog .right_layout {
+    height: 637px;
 
 
-footer .footer_right {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  gap: 24px;
-  justify-content: space-between;
-  margin: 48px !important;
-  
-  
-}
+  }
 
 
+  footer .footer_right {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 24px;
+    justify-content: space-between;
+    margin: 48px !important;
+
+
+  }
+
+  #service .service_box {
+  padding-bottom: 24px;
+  }
 
 }
 
 @media (max-width:767.98px) {
-  #competencies .accordion_body_content{
+
+  body {
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+
+  #competencies .accordion_body_content {
     display: block;
   }
-  #competencies .accordion_body_content .image{
+
+  #competencies .accordion_body_content .image {
     width: 50%;
     margin: 0 auto;
   }
 
-}
+  #blog .right_layout {
+    height: 47%;
 
+
+  }
+
+  .blog_container .contact {
+    width: 100%;
+  }
+
+  .blog_container .contact h3 {
+    width: 100%;
+    margin: 0 auto;
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+
+}
