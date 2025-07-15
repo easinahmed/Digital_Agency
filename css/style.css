@@ -485,6 +485,33 @@ h1 {
     --bs-accordion-border-width: 0 !important;
 }
 
+#competencies .accordion-button::after {
+    border-radius: 50%;
+    background: var(--gray-100);
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    margin-left: auto;
+    content: "";
+    background-position: center;
+    background-image: url("../images/icons/chevron.svg");
+    background-repeat: no-repeat;
+    background-size: 28px;
+    transition: var(--bs-accordion-btn-icon-transition);
+}
+
+#competencies .accordion-button:not(.collapsed)::after {
+    background: var(--primary);
+    background-image: url("../images/icons/chevron_white.svg");
+    transform: rotate(360deg)!important;
+    background-position: center;
+    transition: var(--bs-accordion-btn-icon-transition);
+    background-repeat: no-repeat;
+    background-size: 28px;
+     box-shadow: 0 8px 18px -8px rgba(99, 101, 241, 0.881);
+    
+}
+
 /* ================================
     Our Competencies Section End
 ================================ */
